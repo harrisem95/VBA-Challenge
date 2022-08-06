@@ -10,16 +10,15 @@ Steve's family is interested in investing money into stocks, but they do not hav
 ### Refactoring the All Stocks Analysis VBA Code
 The purpose of refactoring the code is to make it more efficient. In order to do this, I created 3 arrays to compute the total volume and the return: tickerVolumes(12), tickerStartingPrices(12), and tickerEndingPrices(12). tickerVolumes(12) held the volume, tickerStartingPrices(12) held the starting price, and tickerEndingPrices(12) held the ending price. I also created a a new variable called tickerIndex. The tickerIndex variable was used to match the ticker arrray with each array I created respectively. Using the arrays I created, I used nested for loops to loop through the data and accurately complete the analysis. Compared to my original code, this new refactored code was much more efficient. Please see images of the time it took to complete the analysis using the original code and the refactored code. You can see that my refactored code performed the analysis at a significantly faster rate.
 /Users/emily/Documents/Columbia/Module 2 Challenge
-####Refactored Code Time Stamp
+#### Refactored Code Time Stamp
 ![Refactored Code Time Stamp 2017](/Resources/VBA_Challenge_2017.png)
 ![Refactored Code Time Stamp 2018](/Resources/VBA_Challenge_2018.png)
 
-####Original Code Time Stamp
+#### Original Code Time Stamp
 ![Original Code Time Stamp 2017](/Resources/VBA_Challenge_2017_old.png)
 ![Original Code Time Stamp 2018](/Resources/VBA_Challenge_2018_old.png)
 
-
-##Summary
+## Summary
 
 ### Advantages and Disadvantages of Refactoring Code 
 The advantages of refactoring code include making the code more clear and easily understood. This is imporant if someone else were to try to work on your code in the future increasing its longevitiy and uses for future projects. Refactoring the code also leads to faster programming and more efficient analysis. The disadvantage of refactoring code is you can take the original working code and introduce new bugs and errors.
